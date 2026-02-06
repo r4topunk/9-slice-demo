@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <rect width="64" height="64" fill="#f1e8d8"/>
+  <rect x="28" y="7" width="8" height="1" fill="#090706" opacity="1"/>
+<rect x="26" y="8" width="12" height="1" fill="#090706" opacity="1"/>
+<rect x="25" y="9" width="14" height="1" fill="#090706" opacity="1"/>
+<rect x="24" y="10" width="16" height="1" fill="#090706" opacity="1"/>
+<rect x="24" y="11" width="16" height="1" fill="#090706" opacity="1"/>
+<rect x="23" y="12" width="18" height="1" fill="#090706" opacity="1"/>
+<rect x="23" y="13" width="18" height="1" fill="#090706" opacity="1"/>
+<rect x="23" y="14" width="18" height="1" fill="#090706" opacity="1"/>
+<rect x="23" y="15" width="18" height="1" fill="#090706" opacity="1"/>
+<rect x="24" y="16" width="16" height="1" fill="#090706" opacity="1"/>
+<rect x="24" y="17" width="16" height="1" fill="#090706" opacity="1"/>
+<rect x="25" y="18" width="14" height="1" fill="#090706" opacity="1"/>
+<rect x="26" y="19" width="12" height="1" fill="#090706" opacity="1"/>
+<rect x="27" y="20" width="10" height="1" fill="#090706" opacity="1"/>
+<rect x="22" y="14" width="1" height="4" fill="#090706" opacity="1"/>
+<rect x="41" y="14" width="1" height="4" fill="#090706" opacity="1"/>
+<rect x="24" y="24" width="16" height="1" fill="#090706" opacity="1"/>
+<rect x="20" y="27" width="4" height="14" fill="#090706" opacity="1"/>
+<rect x="40" y="27" width="4" height="14" fill="#090706" opacity="1"/>
+<rect x="24" y="25" width="16" height="16" fill="#090706" opacity="1"/>
+<rect x="24" y="40" width="16" height="1" fill="#090706" opacity="1"/>
+<rect x="27" y="40" width="5" height="15" fill="#090706" opacity="1"/>
+<rect x="33" y="40" width="5" height="15" fill="#090706" opacity="1"/>
+<rect x="26" y="55" width="7" height="4" fill="#090706" opacity="1"/>
+<rect x="33" y="55" width="7" height="4" fill="#090706" opacity="1"/>
+  <rect x="26" y="12" width="12" height="5" fill="#f2d4ad" opacity="1"/>
+<rect x="25" y="17" width="14" height="2" fill="#f2d4ad" opacity="1"/>
+<rect x="30" y="22" width="4" height="1" fill="#f2d4ad" opacity="1"/>
+<rect x="21" y="28" width="2" height="5" fill="#f2d4ad" opacity="1"/>
+<rect x="41" y="28" width="2" height="5" fill="#f2d4ad" opacity="1"/>
+<rect x="21" y="37" width="2" height="2" fill="#f2d4ad" opacity="1"/>
+<rect x="41" y="37" width="2" height="2" fill="#f2d4ad" opacity="1"/>
+  <rect x="25" y="19" width="14" height="2" fill="#d7a575" opacity="1"/>
+<rect x="29" y="22" width="6" height="2" fill="#d7a575" opacity="1"/>
+<rect x="21" y="33" width="2" height="4" fill="#d7a575" opacity="1"/>
+<rect x="41" y="33" width="2" height="4" fill="#d7a575" opacity="1"/>
+  <rect x="26" y="21" width="12" height="1" fill="#9a6846" opacity="1"/>
+<rect x="30" y="23" width="4" height="1" fill="#9a6846" opacity="1"/>
+<rect x="22" y="35" width="1" height="3" fill="#9a6846" opacity="1"/>
+<rect x="42" y="35" width="1" height="3" fill="#9a6846" opacity="1"/>
+  <rect x="28" y="9" width="8" height="2" fill="#8b6949" opacity="1"/>
+<rect x="27" y="11" width="2" height="2" fill="#8b6949" opacity="1"/>
+<rect x="35" y="11" width="2" height="2" fill="#8b6949" opacity="1"/>
+  <rect x="26" y="8" width="12" height="3" fill="#5d3e28" opacity="1"/>
+<rect x="25" y="11" width="14" height="3" fill="#5d3e28" opacity="1"/>
+<rect x="24" y="14" width="16" height="2" fill="#5d3e28" opacity="1"/>
+<rect x="24" y="16" width="3" height="2" fill="#5d3e28" opacity="1"/>
+<rect x="37" y="16" width="3" height="2" fill="#5d3e28" opacity="1"/>
+  <rect x="25" y="8" width="3" height="7" fill="#372216" opacity="1"/>
+<rect x="36" y="8" width="3" height="7" fill="#372216" opacity="1"/>
+<rect x="29" y="12" width="6" height="2" fill="#372216" opacity="1"/>
+<rect x="27" y="15" width="10" height="1" fill="#372216" opacity="1"/>
+  <rect x="26" y="55" width="7" height="4" fill="#090706" opacity="1"/>
+<rect x="33" y="55" width="7" height="4" fill="#090706" opacity="1"/>
+  <rect x="27" y="56" width="5" height="2" fill="#3f3027" opacity="1"/>
+<rect x="34" y="56" width="5" height="2" fill="#3f3027" opacity="1"/>
+  <circle cx="32.5" cy="14.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="12.5" font-size="3" fill="#101010">headCenter</text>
+<circle cx="32.5" cy="21.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="19.5" font-size="3" fill="#101010">neck</text>
+<circle cx="24.5" cy="23.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="26.5" y="21.5" font-size="3" fill="#101010">leftShoulder</text>
+<circle cx="40.5" cy="23.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="42.5" y="21.5" font-size="3" fill="#101010">rightShoulder</text>
+<circle cx="32.5" cy="35.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="33.5" font-size="3" fill="#101010">waist</text>
+<circle cx="32.5" cy="40.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="38.5" font-size="3" fill="#101010">hip</text>
+<circle cx="29.5" cy="48.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="31.5" y="46.5" font-size="3" fill="#101010">leftKnee</text>
+<circle cx="35.5" cy="48.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="37.5" y="46.5" font-size="3" fill="#101010">rightKnee</text>
+<circle cx="32.5" cy="57.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="55.5" font-size="3" fill="#101010">feet</text>
+</svg>

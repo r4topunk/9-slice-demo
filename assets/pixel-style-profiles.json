@@ -1,0 +1,54 @@
+{
+  "proportionProfiles": {
+    "balanced": {
+      "headRatio": [0.2, 0.34],
+      "shoulderToHead": [0.8, 1.35],
+      "neckToHead": [0.08, 0.28],
+      "torsoToLeg": [0.7, 1.3],
+      "symmetryGapMax": 0.18
+    },
+    "tibia": {
+      "headRatio": [0.18, 0.28],
+      "shoulderToHead": [0.78, 1.18],
+      "neckToHead": [0.05, 0.2],
+      "torsoToLeg": [0.85, 1.45],
+      "symmetryGapMax": 0.2
+    },
+    "chibi": {
+      "headRatio": [0.28, 0.42],
+      "shoulderToHead": [0.7, 1.2],
+      "neckToHead": [0.03, 0.16],
+      "torsoToLeg": [0.55, 1.05],
+      "symmetryGapMax": 0.22
+    }
+  },
+  "styleProfiles": {
+    "clean": {
+      "minToneStep": 0.08,
+      "maxHueSpanPerRamp": 28,
+      "minVariantHueGap": 10,
+      "paletteColorCount": [10, 40],
+      "outlineContrastMin": 2.2,
+      "patternDensity": [0.03, 0.25],
+      "tinyRectRatioMax": 0.4
+    },
+    "tibia": {
+      "minToneStep": 0.06,
+      "maxHueSpanPerRamp": 24,
+      "minVariantHueGap": 12,
+      "paletteColorCount": [10, 34],
+      "outlineContrastMin": 2,
+      "patternDensity": [0.02, 0.2],
+      "tinyRectRatioMax": 0.38
+    },
+    "vivid": {
+      "minToneStep": 0.1,
+      "maxHueSpanPerRamp": 32,
+      "minVariantHueGap": 8,
+      "paletteColorCount": [12, 48],
+      "outlineContrastMin": 2.4,
+      "patternDensity": [0.04, 0.28],
+      "tinyRectRatioMax": 0.45
+    }
+  }
+}

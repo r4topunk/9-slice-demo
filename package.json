@@ -1,0 +1,23 @@
+{
+  "name": "nine-slice-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "playwright:smoke": "node scripts/playwright-smoke.mjs",
+    "pixel:proportion": "node scripts/pixel-proportion-check.mjs",
+    "pixel:style": "node scripts/pixel-style-check.mjs",
+    "pixel:doctor": "node scripts/pixel-doctor.mjs --proportion tibia --style tibia",
+    "pixel:validate": "node scripts/validate-pixel-spec.mjs",
+    "pixel:templates": "node scripts/generate-pixel-templates.mjs",
+    "pixel:setup": "pnpm run pixel:validate && pnpm run pixel:templates"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8"
+  }
+}

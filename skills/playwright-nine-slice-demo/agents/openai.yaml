@@ -1,0 +1,4 @@
+interface:
+  display_name: "Playwright 9-Slice Demo"
+  short_description: "Test and debug Playwright in this canvas repo"
+  default_prompt: "Use $playwright-nine-slice-demo to run smoke checks and collect Playwright artifacts for this repository."

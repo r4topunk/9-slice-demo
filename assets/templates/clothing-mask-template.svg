@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <rect width="64" height="64" fill="#fff"/>
+  <rect x="25" y="24" width="14" height="3" fill="#ffb7b7" opacity="1"/>
+<rect x="24" y="27" width="2" height="3" fill="#ffb7b7" opacity="1"/>
+<rect x="38" y="27" width="2" height="3" fill="#ffb7b7" opacity="1"/>
+  <rect x="24" y="27" width="16" height="7" fill="#ff6f78" opacity="1"/>
+<rect x="24" y="34" width="16" height="4" fill="#ff6f78" opacity="1"/>
+  <rect x="24" y="38" width="16" height="2" fill="#8a2b34" opacity="1"/>
+<rect x="31" y="27" width="2" height="11" fill="#8a2b34" opacity="1"/>
+  <rect x="27" y="31" width="10" height="1" fill="#ffeaea" opacity="0.8"/>
+<rect x="28" y="35" width="8" height="1" fill="#ffeaea" opacity="0.8"/>
+  <rect x="27" y="40" width="11" height="4" fill="#b2bddf" opacity="1"/>
+<rect x="28" y="44" width="3" height="4" fill="#b2bddf" opacity="1"/>
+<rect x="34" y="44" width="3" height="4" fill="#b2bddf" opacity="1"/>
+  <rect x="27" y="44" width="5" height="11" fill="#6078be" opacity="1"/>
+<rect x="33" y="44" width="5" height="11" fill="#6078be" opacity="1"/>
+  <rect x="27" y="53" width="11" height="2" fill="#2a3c73" opacity="1"/>
+<rect x="31" y="44" width="2" height="11" fill="#2a3c73" opacity="1"/>
+  <rect x="28" y="48" width="2" height="1" fill="#dce2ff" opacity="0.85"/>
+<rect x="35" y="48" width="2" height="1" fill="#dce2ff" opacity="0.85"/>
+<rect x="28" y="51" width="2" height="1" fill="#dce2ff" opacity="0.85"/>
+<rect x="35" y="51" width="2" height="1" fill="#dce2ff" opacity="0.85"/>
+  <circle cx="32.5" cy="14.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="12.5" font-size="3" fill="#101010">headCenter</text>
+<circle cx="32.5" cy="21.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="19.5" font-size="3" fill="#101010">neck</text>
+<circle cx="24.5" cy="23.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="26.5" y="21.5" font-size="3" fill="#101010">leftShoulder</text>
+<circle cx="40.5" cy="23.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="42.5" y="21.5" font-size="3" fill="#101010">rightShoulder</text>
+<circle cx="32.5" cy="35.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="33.5" font-size="3" fill="#101010">waist</text>
+<circle cx="32.5" cy="40.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="38.5" font-size="3" fill="#101010">hip</text>
+<circle cx="29.5" cy="48.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="31.5" y="46.5" font-size="3" fill="#101010">leftKnee</text>
+<circle cx="35.5" cy="48.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="37.5" y="46.5" font-size="3" fill="#101010">rightKnee</text>
+<circle cx="32.5" cy="57.5" r="1.2" fill="#ffffff" stroke="#101010" stroke-width="0.6"/>
+<text x="34.5" y="55.5" font-size="3" fill="#101010">feet</text>
+</svg>
