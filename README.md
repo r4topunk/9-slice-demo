@@ -14,6 +14,7 @@ pnpm run dev
 - `ArrowLeft` / `ArrowRight`: change shirt
 - `A` / `D`: change pants
 - `R`: randomize outfit
+- `S`: cycle art direction (Classic / Ember / Aether)
 - `F`: toggle fullscreen
 - Click the on-canvas buttons
 

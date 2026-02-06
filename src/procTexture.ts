@@ -1,11 +1,10 @@
-const COLOR_BASE = '#b8a27b'
-const COLOR_GRAIN_A = '#9f885e'
-const COLOR_GRAIN_B = '#cab58f'
-const COLOR_BORDER_OUTER = '#17130f'
-const COLOR_BORDER_MID = '#6a5536'
-const COLOR_BORDER_INNER = '#dbc79f'
-const COLOR_CORNER = '#2d2217'
-const COLOR_PATTERN = '#8e734b'
+const COLOR_BASE = '#061006'
+const COLOR_GRAIN_A = '#081808'
+const COLOR_GRAIN_B = '#0b210b'
+const COLOR_BORDER_OUTER = '#37ff41'
+const COLOR_BORDER_SHADE = '#188d1d'
+const COLOR_BORDER_INNER = '#b6ff55'
+const COLOR_PATTERN = '#173317'
 
 export const DEFAULT_TEXTURE_SIZE = 64
 
@@ -35,8 +34,7 @@ export const createPanelTexture = (size: number): HTMLCanvasElement => {
     }
   }
 
-  const outer = Math.max(2, Math.floor(size * 0.05))
-  const mid = Math.max(2, Math.floor(size * 0.03))
+  const outer = Math.max(2, Math.floor(size * 0.045))
   const inner = Math.max(1, Math.floor(size * 0.02))
 
   ctx.fillStyle = COLOR_BORDER_OUTER
@@ -45,31 +43,21 @@ export const createPanelTexture = (size: number): HTMLCanvasElement => {
   ctx.fillRect(0, 0, outer, size)
   ctx.fillRect(size - outer, 0, outer, size)
 
-  ctx.fillStyle = COLOR_BORDER_MID
-  ctx.fillRect(outer, outer, size - outer * 2, mid)
-  ctx.fillRect(outer, size - outer - mid, size - outer * 2, mid)
-  ctx.fillRect(outer, outer, mid, size - outer * 2)
-  ctx.fillRect(size - outer - mid, outer, mid, size - outer * 2)
+  const rimInset = outer + 1
+  const rimW = Math.max(1, size - rimInset * 2)
+  const rimH = Math.max(1, size - rimInset * 2)
 
-  const hiInset = outer + mid
+  ctx.fillStyle = COLOR_BORDER_SHADE
+  ctx.fillRect(rimInset, rimInset, rimW, inner)
+  ctx.fillRect(rimInset, rimInset + rimH - inner, rimW, inner)
+  ctx.fillRect(rimInset, rimInset, inner, rimH)
+  ctx.fillRect(rimInset + rimW - inner, rimInset, inner, rimH)
+
   ctx.fillStyle = COLOR_BORDER_INNER
-  ctx.fillRect(hiInset, hiInset, size - hiInset * 2, inner)
-  ctx.fillRect(hiInset, hiInset, inner, size - hiInset * 2)
+  ctx.fillRect(rimInset, rimInset, rimW, 1)
+  ctx.fillRect(rimInset, rimInset, 1, rimH)
 
-  // Small corner motifs preserve stylization without huge dark blocks.
-  const motif = Math.max(4, Math.floor(size * 0.08))
-  const m = outer + 1
-  ctx.fillStyle = COLOR_CORNER
-  ctx.fillRect(m, m, motif, 2)
-  ctx.fillRect(m, m, 2, motif)
-  ctx.fillRect(size - m - motif, m, motif, 2)
-  ctx.fillRect(size - m - 2, m, 2, motif)
-  ctx.fillRect(m, size - m - 2, motif, 2)
-  ctx.fillRect(m, size - m - motif, 2, motif)
-  ctx.fillRect(size - m - motif, size - m - 2, motif, 2)
-  ctx.fillRect(size - m - 2, size - m - motif, 2, motif)
-
-  const centerInset = outer + mid + inner + 2
+  const centerInset = rimInset + inner + 1
   for (let y = centerInset; y < size - centerInset; y += 1) {
     for (let x = centerInset; x < size - centerInset; x += 1) {
       const hash = (x * 19 + y * 43) % 97
